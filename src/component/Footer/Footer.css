@@ -1,0 +1,33 @@
+.footer-container {
+    background-color: #313232!important;
+    height: fit-content;
+}
+
+.font-size {
+    font-size: small;
+}
+
+.input-footer {
+    border-radius: 30px;
+    border: none;
+    width: 80%;
+}
+
+.input-footer:focus {
+    outline: none;
+}
+
+.btn-footer {
+    width: 13rem;
+    width: 80%;
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .footer-padding-comp {
+        padding-top: 1rem!important;
+        padding-bottom: 0px!important;
+    }
+    .last-col-footer {
+        margin-top: 1rem;
+    }
+}
