@@ -14,7 +14,7 @@ const ProductDetail = () => {
     const{slug}=queryString.parse(window.location.search)
     const { productDetail, productCategory, setCartData } = useContext(GlobalContext);
     const [defaultImage, setDefault] = useState(0)
-
+console.log(productDetail)
     
 //Dynamic select images (SingleProductPage)
     let images = productDetail.images?.slice(1, productDetail.images?.length)

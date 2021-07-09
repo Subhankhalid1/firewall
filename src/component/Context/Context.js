@@ -63,6 +63,7 @@ const MainContext = ({ children }) => {
             }
         });
     }
+    console.log(products)
     // Get Blog Post Data from Bcakend
     const getBlogs = async () => {
         startLoading();

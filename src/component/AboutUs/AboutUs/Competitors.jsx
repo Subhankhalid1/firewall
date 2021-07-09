@@ -1,12 +1,12 @@
 import React from 'react'
-
+import logo from "../../Home/CarouselGallery/img/logo.png";
 const AboutUs = () => {
     return <div style={{ width: '85%', textAlign: 'center', margin: 'auto', paddingTop: '5%' }}>
 
 
         <div class="d-flex justify-content-center text-white " style={{ position: 'relative' }}  >
 
-            <div class="lg p-5 border bg-success border border-dark" >
+            <div class="lg p-5 border bg-secondary " >
                 <h1>Hello world</h1>
                 <p class="p-4"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -16,12 +16,14 @@ const AboutUs = () => {
             </div>
 
             <div class="row align-items-center justify-content-center m-auto " >
-                <img class=" row d-flex justify-content-center justify-text-center  "
-                    style={{ height: '8rem', width: '8rem', position: 'absolute' }} src="https://firewallforce.net/wp-content/uploads/2020/06/fw-icon-300x300.png" alt="" />
+              
+                <img class=" row d-flex justify-content-center justify-text-center "
+                    style={{ height: '8rem', width: '8rem', position: 'absolute' }} src={logo} alt="" />
+                
             </div>
 
 
-            <div class="lg p-5 border bg-danger border border-dark" >
+            <div class="lg p-5  bg-danger  " >
                 <h1>Hello world</h1>
                 <p class="p-4"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -37,7 +39,7 @@ const AboutUs = () => {
         <br />
         <div class="d-flex justify-content-center text-white " style={{ position: 'relative' }}  >
 
-            <div class="lg p-5 border bg-success border border-dark" >
+            <div class="lg p-5 border bg-secondary " >
                 <h1>Hello world</h1>
                 <p class="p-4"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -48,10 +50,10 @@ const AboutUs = () => {
 
             <div class="row align-items-center justify-content-center m-auto " >
                 <img class=" row d-flex justify-content-center justify-text-center  "
-                    style={{ height: '8rem', width: '8rem', position: 'absolute' }} src="https://firewallforce.net/wp-content/uploads/2020/06/fw-icon-300x300.png" alt="" />
+                    style={{ height: '8rem', width: '8rem', position: 'absolute' }} src={logo} alt="" />
             </div>
 
-            <div class="lg p-5 border bg-danger border border-dark" >
+            <div class="lg p-5 border bg-danger " >
                 <h1>Hello world</h1>
                 <p class="p-4"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -62,7 +64,8 @@ const AboutUs = () => {
 
 
         </div>
-
+        <br />
+        <br />
 
     </div>
 }
